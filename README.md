@@ -8,6 +8,7 @@
 
 
 ## 목차
+- [TIL/XE](#tilxe)
 - [Algorithm](#algorithm)
 - [MarkDown](#markdown)
 - [Python](#Python)
@@ -17,8 +18,17 @@
 
 <br>
 
+### TIL/XE
+- CS 외 공부한 것들을 노션에 정리합니다.<br>
+
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+
+<br>
+
 ### [Algorithm](github.com/sieunp/TIL/tree/main/Algorithm)
 - [해쉬]()
+
+<br>
 
 ### [MarkDown](https://github.com/sieunp06/TIL/tree/main/MARKDOWN)
 - [MarkDown Syntax](https://github.com/sieunp06/TIL/blob/main/MARKDOWN/Basic-MarkDown-Syntax.md)
