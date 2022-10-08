@@ -21,7 +21,7 @@
 ### TIL/XE
 - CS 외 공부한 것들을 노션에 정리합니다.<br>
 
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+<a href="https://jeweled-kettledrum-b89.notion.site/TIL-EX-67f5b9998cb64833b6b1c0eb39aa7303" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"></a>
 
 <br>
 
