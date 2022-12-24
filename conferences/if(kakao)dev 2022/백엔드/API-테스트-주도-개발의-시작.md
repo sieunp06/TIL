@@ -9,7 +9,7 @@
 - 여러 아키텍쳐를 사용하여 API를 설계 및 개발할 수 있음
 
 ### RESTful API
-![if(kakao) back api_testing1](../images/if(kakao)_back_api_testing1.png)
+![if(kakao) back api_testing1](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing1.png)
 - 시스템 간 인터넷을 통해 정보를 안전하게 교환할 수 있도록 원칙을 정의함.
 - http 프로토콜의 메소드와 상태코드를 통해 일관된 방식으로 요청과 응답을 주고 받을 수 있고, 다른 요청과 분리되어서 응답을 주기 때문에 상태가 없음.
 - 응답은 json 뿐만 아니라 클라이언트 요구에 따라 다양한 포맷으로 줄 수도 있음.
@@ -22,22 +22,22 @@
 
 
 ### UI test VS API test
-![if(kakao) back api_testing2](../images/if(kakao)_back_api_testing2.png)
+![if(kakao) back api_testing2](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing2.png)
 - UI를 통해 Business Layer를 테스트하는 것보다 API를 통해 Business Layer를 테스트 하는 것이 더 빠르고 정확함.
 - Presentation Layer에서 UI testing을 진행하고, Business Layer에서는 API testing을 진행하는 것이 더 효율적임.
 
 ### API test VS Unit test
-![if(kakao) back api_testing3](../images/if(kakao)_back_api_testing3.png)
+![if(kakao) back api_testing3](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing3.png)
 - API test와 Unit test 모두 타깃의 기본 기능을 테스트 하지만, API test의 경우 기능 뿐만 아니라 시스템 간의 통합, 보안, 성능 등 추가적인 이슈들을 쉽게 확인할 수 있음.
 
 ### 모든 테스트들은 상호보완적이다.
-![if(kakao) back api_testing4](../images/if(kakao)_back_api_testing4.png)
+![if(kakao) back api_testing4](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing4.png)
 - 테스트라는 큰 범주에서 동일한 목표를 가지고 있음.
 
 ## API Test Automation
 - 모든 테스트는 비용을 아끼기 위해 자동화하는 것이 필수적임.
 ### 테스트를 자동화 한다는 것은
-![if(kakao) back api_testing5](../images/if(kakao)_back_api_testing5.png)
+![if(kakao) back api_testing5](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing5.png)
 - 사람의 노력 없이 테스트를 계속 수행하게 만드는 것.
 - CI/CD 단계에서 빌드 후 API 테스트를 실행시킴으로서 간단하게 자동화할 수 있음.
 ### API 테스트를 CI/CD 단계에 통합시키는 방법
@@ -67,7 +67,7 @@
     - 또한 기능 테스트를 스케쥴링하거나 CI/CD에 통합할 수 있음.
 
 ## API Test Driven
-![if(kakao) back api_testing7](../images/if(kakao)_back_api_testing7.png)
+![if(kakao) back api_testing7](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing7.png)
 - TestLAB의 개발 방향성.
 - API test 자동화를 넘어 애플리케이션 개발을 동료들과 함께 API test로 시작하는 프로세스
 - 간단하게 애플리케이션 개발 주기에 맞게 API 테스트를 작성하고 성공시키며 CI/CD에서 실행시키면 됨.
@@ -75,7 +75,7 @@
     - 커뮤니케이션 및 개발 비용을 줄일 수 있음.
 - 기획 단계에서부터 테스트가 작성되기 때문에 생산성이 향상되고, 배포 이후 운영 단계에서 스케쥴링을 통해 자동적으로 실행되기 때문에 프로덕션 품질을 보장할 수 있음.
 ### API Test Driven 개발 주기
-![if(kakao) back api_testing6](../images/if(kakao)_back_api_testing6.png)
+![if(kakao) back api_testing6](../images/백엔드/API-테스트-주도-개발/if(kakao)_back_api_testing6.png)
 - 기획
     - 최소 클라이언트와 서버로 구성되어 개발됨.
     - 개발팀은 클라이언트와 서버의 통신을 실패하는 API test 작성을 통해 설계함.
