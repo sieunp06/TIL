@@ -1,27 +1,32 @@
 # 🏃‍♂️TIL: Today I Learned
-❗매일 새로운 마음으로 공부하며 정리하는 TIL
+- 공부하는 모든 것들을 기록하자.
+- 정리가 된 `commit`은 `블로그`에 다시 정리하자.
 
+    <a href="https://jeweled-kettledrum-b89.notion.site/STUDY-LOG-63d0480b0f104750a425418f09a3d48a?pvs=4" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+    <a href="https://sieunp06.github.io/" target="_blank"><img src="https://img.shields.io/badge/🌠 Dev{sieun}-9370DB?style=for-the-badge"></a>
 <br>
 
 ## Content
+1. [Conference](#conference)
+2. [Certifications](#certifications)
+3. [Computer Science](#computer-science)
+4. [Spring Boot](#spring-boot)
+5. [React](#react)
+6. [Book](#book)
 
-1. [conferences](#conferences)
-2. [정보처리기사](#정보처리기사)
-3. [네트워크 관리사 1급](#네트워크-관리사-1급)
-4. [TOPCIT](#topcit)
-5. [Spring Boot](#spring-boot)
+### Conference
+- if(kakao) 2022
 
-<br>
+### Certifications
+- 정보처리기사
 
-## OverView
-### Conferences
-- [if(kakao)dev 2022](https://github.com/sieunp06/TIL/tree/main/conferences/if(kakao)dev%202022)
-
-### 정보처리기사
-- [정보처리기사 필기](https://github.com/sieunp06/TIL/tree/main/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC)
-
-### 네트워크 관리사 1급
-
-### TOPCIT
+### Computer Science
+- 컴퓨터 구조
+- 운영체제
 
 ### Spring Boot
+
+### React
+
+### Book
+- 소프트웨어 아키텍처 101
