@@ -33,6 +33,7 @@
 ### Spring Boot
 
 ### React
+- React 프로젝트의 초기 디렉토리 구조
 
 ### Book
 - 소프트웨어 아키텍처 101
