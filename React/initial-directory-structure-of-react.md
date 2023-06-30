@@ -80,3 +80,9 @@ React 프로젝트의 정적(static) 파일들이 저장된 폴더
     `App.js`의 css 파일과 test 파일
 ### package.json
 설치한 패키지의 정보가 담긴 파일.
+
+-------------
+
+## Reference
+- [004_Create React App 기본 구조에 대해 알아보자!](https://sangseophwang.tistory.com/89)
+- [폴더 구조](https://create-react-app.dev/docs/folder-structure/)
