@@ -1,6 +1,5 @@
-# 🏃‍♂️TIL: Today I Learned
+# 🌞TIL: Today I Learned
 
-<a href="https://jeweled-kettledrum-b89.notion.site/STUDY-LOG-63d0480b0f104750a425418f09a3d48a?pvs=4" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 <a href="https://sieunp06.github.io/" target="_blank"><img src="https://img.shields.io/badge/🌠 Dev{sieun}-9370DB?style=for-the-badge"></a>
 <br>
 
@@ -34,6 +33,7 @@
 
 ### React
 - React 프로젝트의 초기 디렉토리 구조
+- react-router-dom 알아보기
 
 ### Book
 - 소프트웨어 아키텍처 101
