@@ -29,6 +29,8 @@
 
 ### Computer Architecture
 - [컴퓨터 구조의 큰 그림](https://github.com/sieunp06/TIL/blob/main/Computer%20Architecture/1-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%9D%98-%ED%81%B0-%EA%B7%B8%EB%A6%BC.md)
+- [데이터]()
+- [명령어]()
 
 ### Java Design Pattern
 - [Strategy Pattern](https://github.com/sieunp06/TIL/blob/main/Java%20Design%20Pattern/strategy-pattern.md)
