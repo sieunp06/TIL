@@ -16,7 +16,7 @@
 - [Spring Boot](#spring-boot)
 - [React](#react)
 - [Book](#book)
-- [Certifications](#certifications)
+- [ETC](#etc)
 
 ### Conference
 - if(kakao) 2022
@@ -44,3 +44,6 @@
 
 ### Book
 - 소프트웨어 아키텍처 101
+
+### ETC
+- [LF와 CRLF의 차이](https://github.com/sieunp06/TIL/blob/main/Etc/Differences%20between%20LF%20and%20CRLF.md)
