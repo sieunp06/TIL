@@ -284,3 +284,7 @@ class Drink {
     List<Complaint> litany = Collections.list(legacyLitany);
     ```
     
+## ✨정리
+> 정적 팩터리 메서드와 public 생성자는 각자의 쓰임새가 있기 때문에 상대적인 장단점을 이해하고 사용하는 것이 좋다.
+
+하지만 정적 팩터리를 사용하는 것이 유리한 경우가 더 많기 때문에, 무작정 public 생성자를 제공하던 습관이 있다면 고치자.
