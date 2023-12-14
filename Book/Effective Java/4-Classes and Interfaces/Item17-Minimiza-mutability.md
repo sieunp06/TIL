@@ -173,14 +173,15 @@ System.out.println(cocaCola.name);
 아래 예시 코드는 복소수(실수부와 허수부로 구성된 수)를 표현한다.
 ```java
 public final class Complex {
-    private final double re;
-    private final double im;
+    private final double re;    // 실수부
+    private final double im;    // 허수부
 
     public Complex(double re, double im) {
         this.re = re;
         this.im = im;
     }
 
+    // 접근자 메서드
     public double realPart() {
         return re;
     }
@@ -189,6 +190,7 @@ public final class Complex {
         return im;
     }
 
+    // 사칙연산 메서드 plus, minus, times, dividedBy
     public Complex plus(Complex c) {
         return new Complex(re + c.re, im + c.im);
     }
