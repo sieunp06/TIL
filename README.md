@@ -6,6 +6,7 @@
 - [Book](#📌book)
 - [Java](#📌java)
 - [Node.js](#📌nodejs)
+- [Python](#📌python)
 - [React](#📌react)
 
 -------
@@ -17,6 +18,9 @@
 ### 📌Node.js
 - 📄npm
     - [npm install options](https://github.com/sieunp06/TIL/blob/main/Node.js/npm/npm-install-options.md)
+
+### 📌Python
+- [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
 
 ### 📌React
 - 📄 Jest
