@@ -21,6 +21,7 @@
 
 ### 📌Python
 - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
+- [문자열 포맷팅](https://github.com/sieunp06/TIL/blob/main/Python/How-to-Formatting-String.md)
 
 ### 📌React
 - 📄 Jest
