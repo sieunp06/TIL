@@ -4,6 +4,7 @@
 
 ## Categories
 - [Book](#📌book)
+- [FastAPI](#📌fastapi)
 - [Java](#📌java)
 - [Node.js](#📌nodejs)
 - [Python](#📌python)
@@ -12,6 +13,8 @@
 -------
 ### 📌Book
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
+
+### 📌FastAPI
 
 ### 📌Java
 
