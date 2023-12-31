@@ -27,6 +27,9 @@
 - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
 - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
 - [문자열 포맷팅](https://github.com/sieunp06/TIL/blob/main/Python/How-to-Formatting-String.md)
+- [리스트 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/List-related-functions.md)
+- [딕셔너리 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/Dictionary-related-function.md)
+- [집합 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/Set-related-functions.md)
 
 ### 📌React
 - 📄 Jest
