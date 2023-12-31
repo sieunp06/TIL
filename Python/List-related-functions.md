@@ -10,6 +10,8 @@
 - [count](#count)
 - [extend](#extend)
 
+-----
+
 ### append
 `append`는 리스트에 요소를 추가한다.
 
