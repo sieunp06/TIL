@@ -15,7 +15,7 @@
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
 ### 📌FastAPI
-- [pydantic]()
+- [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
 
