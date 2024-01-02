@@ -1,13 +1,45 @@
 # 딕셔너리 관련 함수들
 #### 목차
-- [keys](#keys)
-- [values](#values)
-- [items](#items)
-- [clear](#clear)
-- [get](#get)
-- [in](#in)
+1. [딕셔너리(dictionary)](#딕셔너리dictionary)
+2. [딕셔너리 관련 함수](#딕셔너리-관련-함수들)
+    - [keys](#keys)
+    - [values](#values)
+    - [items](#items)
+    - [clear](#clear)
+    - [get](#get)
+    - [in](#in)
 
 -----
+
+## 딕셔너리(dictionary)
+파이썬의 딕셔너리(dictionary)는 다음과 같은 형식을 가진다.
+```python
+딕셔너리 명 = {Key1: Value1, Key2: Value2, Key3: Value3, ...}
+```
+```python
+dic = {'name': 'pey', 'phone': '010-9999-9999', 'birth': '1118'}
+```
+
+### 딕셔너리에 값 추가, 삭제하기
+#### 📌 값 추가하기
+```python
+a = {1: 'a'}
+a[2] = 'b'
+print(a)
+```
+```
+{1: 'a', 2: 'b'}
+```
+
+#### 📌 값 삭제하기
+```python
+a = {1: 'a', 2: 'b'}
+del a[1]
+print(a)
+```
+```
+{2: 'b'}
+```
 
 ### keys
 `keys`는 딕셔너리의 key만을 모아 `dict_keys` 객체를 반환한다.
@@ -33,7 +65,7 @@ birth
 ```
 
 즉, 리스트와 같이 사용할 수 있지만 리스트 관련 함수들은 사용할 수 없다.
-> 📌 [[Python] 리스트 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/List-related-functions.md)
+> 📌 [[Python] 리스트 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/Python-List.md#%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EA%B4%80%EB%A0%A8-%ED%95%A8%EC%88%98%EB%93%A4)
 
 `dict_keys`를 리스트로 변환하려만 아래와 같이 하면 된다.
 
