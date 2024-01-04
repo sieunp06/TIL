@@ -18,6 +18,8 @@
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
+- [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Java/Difference-between-add-and-offer-in-queue.md)
+- [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
 ### 📌Node.js
 - 📄npm
