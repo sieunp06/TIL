@@ -4,8 +4,10 @@
 
 ## Categories
 - [Book](#📌book)
+- [Data Structure](#📌data-structure)
 - [FastAPI](#📌fastapi)
 - [Java](#📌java)
+- [Javascript](#📌javascript)
 - [Node.js](#📌nodejs)
 - [Python](#📌python)
 - [React](#📌react)
@@ -14,12 +16,16 @@
 ### 📌Book
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
+### 📌Data Structure
+
 ### 📌FastAPI
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
 - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Java/Difference-between-add-and-offer-in-queue.md)
 - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
+
+### 📌Javascript
 
 ### 📌Node.js
 - 📄npm
@@ -36,4 +42,4 @@
 
 ### 📌React
 - 📄 Jest
-    - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
+    - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)    - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
