@@ -222,6 +222,51 @@ JPA는 `team`의 참조를 외래 키로 변환하여 적절한 `INSERT SQL`을 
 ### 객체 그래프 탐색
 연관관계와 관련해 극복하기 어려운 패러다임의 불일치 문제이다.
 
+객체에서 회원이 소속된 팀을 조회할 때, 참조를 사용하여 연관된 팀을 찾는다.<br>
+👉 `객체 그래프 탐색`
+
+```java
+member.getOrder().getOrderItem()... // 자유로운 객체 그래프 탐색 코드
+```
+
+객체는 자유롭게 객체 그래프를 탐색할 수 있어야 하는데, 아래와 같은 SQL을 사용하여 회원과 팀에 대한 데이터를 조회하여 `member.getTeam()`은 가능하지만 `member.getOrder()`과 같은 다른 객체 그래프에 대한 데이터는 없기 때문에 탐색할 수 없다.
+
+```sql
+SELECT M.*, T.*
+    FROM MEMBER M
+    JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID
+```
+
+### JPA와 객체 그래프 탐색
+`JPA`를 사용하면 객체 그래프를 자유롭게 탐색할 수 있다.
+
+#### 📌지연로딩
+JPA는 연관된 객체를 사용하는 시점에 적절한 `INSERT SQL`을 실행하기 떄문에 연관된 객체를 마음껏 조회할 수 있다.
+
+즉, 실제 객체를 사용하는 시점까지 데이터베이스 조회를 미룬다<br>
+👉 `지연로딩`
+
+- JPA는 지연로딩을 투명하게 처리한다.
+    ```java
+    class Member {
+        private Order order;
+
+        public Order getOrder() {
+            return order;
+        }
+    }
+    ```
+    `getOrder()` 메소드에 JPA와 관련된 코드를 사용하지 않았다.
+    ```java
+    Member member = jpa.find(Member.class, memberId);
+
+    Order order = member.getOrder();
+    order.getOrderDate();       // Order을 사용하는 시점에 SELECT ORDER SQL
+    ```
+    위는 지연로딩을 사용하는 코드이다.
+
+    마지막 줄의 `order.getOrderDate()`에서 `Order` 객체를 실제 이용하는 시점에 JPA가 데이터베이스에서 ORDER 테이블을 조회한다.
+
 ## 🐸ORM과 JPA
 ### ORM이란?
 > ORM(Object Relational Mapping)
