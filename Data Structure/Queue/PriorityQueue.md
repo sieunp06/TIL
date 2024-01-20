@@ -144,6 +144,7 @@ priorityQueue1.contains(3);
 priorityQueue1.contains(8);
 ```
 queue 안에 특정 값이 존재하면 `true`, 존재하지 않으면 `false`를 반환한다.
+
 -----
 ## 💎 References
 - [Java API Documentation](https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html)
