@@ -18,13 +18,14 @@
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
 ### 📌Data Structure
+- 📄Queue
+    - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Java/Difference-between-add-and-offer-in-queue.md)
+    - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
 ### 📌FastAPI
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
-- [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Java/Difference-between-add-and-offer-in-queue.md)
-- [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
 ### 📌Javascript
 
@@ -49,3 +50,4 @@
 ### 📌Spring
 - 📄Spring JPA
     - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
+    - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
