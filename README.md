@@ -26,6 +26,8 @@
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
+- 📄Design Pattern
+    - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 
 ### 📌Javascript
 - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
