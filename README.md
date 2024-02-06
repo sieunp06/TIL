@@ -18,7 +18,7 @@
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
 ### 📌Data Structure
-- 📄Queue
+- <strong>📁Queue</strong>
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Java/Difference-between-add-and-offer-in-queue.md)
     - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
@@ -26,18 +26,18 @@
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
  
 ### 📌Java
-- 📄Design Pattern
+- <strong>📁 Design Pattern</strong>
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 
 ### 📌Javascript
 - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
 
 ### 📌Node.js
-- 📄npm
+- <strong>📁 npm</strong>
     - [npm install options](https://github.com/sieunp06/TIL/blob/main/Node.js/npm/npm-install-options.md)
 
 ### 📌Python
-- 📄문법
+- <strong>📁 문법 </strong>
     - [내장함수](https://github.com/sieunp06/TIL/blob/main/Python/Built-in-Functions.md)
     - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
     - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
@@ -47,12 +47,14 @@
     - [집합](https://github.com/sieunp06/TIL/blob/main/Python/Python-Set.md)
 
 ### 📌React
-- 📄 Jest
+- <strong>📁 Jest</strong>
     - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
 
 ### 📌Spring
-- 📄Spring JPA
+- <strong>📁 Spring JPA</strong>
     - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
     - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
     - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
-    - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md)
+    - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
+    - <strong>📁 객체지향 쿼리</strong>
+        - [JPQL]()
