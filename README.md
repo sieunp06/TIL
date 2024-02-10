@@ -29,7 +29,7 @@
 ### 📌IDE
 - <strong>📁 IntelliJ</strong>
     - <strong>📁 Trouble Shooting</strong>
-        - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
+        - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Trouble%20Shooting/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
  
 ### 📌Java
 - <strong>📁 Design Pattern</strong>
