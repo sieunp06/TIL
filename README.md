@@ -36,7 +36,11 @@
         - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Trouble%20Shooting/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
  
 ### 📌Java
+- [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
+- [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
+- [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
 - <strong>📁 Design Pattern</strong>
+    - [Adaptor Pattern]()
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 - <strong>📁 JUnit5 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
@@ -49,7 +53,7 @@
     - [npm install options](https://github.com/sieunp06/TIL/blob/main/Node.js/npm/npm-install-options.md)
 
 ### 📌Python
-- <strong>📁 문법 </strong>
+- <strong>📁 Grammar </strong>
     - [내장함수](https://github.com/sieunp06/TIL/blob/main/Python/Built-in-Functions.md)
     - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
     - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
