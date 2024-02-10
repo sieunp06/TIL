@@ -1,3 +1,4 @@
+# IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결
 ## 🐛ISSUE
 ![Picture 1](images/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting-1.png)
 
