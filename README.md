@@ -66,3 +66,4 @@
         - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
     - <strong>📁 객체지향 쿼리</strong>
         - [JPQL]()
+- <strong>📁 Spring Security</strong>
