@@ -6,6 +6,7 @@
 - [Book](#📌book)
 - [Data Structure](#📌data-structure)
 - [FastAPI](#📌fastapi)
+- [IDE](#📌ide)
 - [Java](#📌java)
 - [Javascript](#📌javascript)
 - [Node.js](#📌nodejs)
@@ -24,6 +25,11 @@
 
 ### 📌FastAPI
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
+
+### 📌IDE
+- <strong>📁 IntelliJ</strong>
+    - <strong>📁 Trouble Shooting</strong>
+        - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
  
 ### 📌Java
 - <strong>📁 Design Pattern</strong>
@@ -56,5 +62,7 @@
     - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
     - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
     - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
+    - <strong>📁 Trouble Shooting</strong>
+        - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
     - <strong>📁 객체지향 쿼리</strong>
         - [JPQL]()
