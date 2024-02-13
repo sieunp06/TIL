@@ -36,17 +36,24 @@
         - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Trouble%20Shooting/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
  
 ### 📌Java
-- [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
-- [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
-- [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
 - <strong>📁 Design Pattern</strong>
     - [Adaptor Pattern]()
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 - <strong>📁 JUnit5 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
+- [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
+- [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
+- [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
 
 ### 📌Javascript
-- [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
+- <strong>📁 Grammar </strong>
+    - <strong>📁ES6</strong>
+        - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/ES6/var-let-const.md)
+    - [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/%3D%3D-and-%3D%3D%3D.md)
+    - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
+    - [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-List.md)
+    - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
+    - [프로토타입(prototype)]()
 
 ### 📌Node.js
 - <strong>📁 npm</strong>
@@ -58,9 +65,9 @@
     - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
     - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
     - [문자열 포맷팅](https://github.com/sieunp06/TIL/blob/main/Python/How-to-Formatting-String.md)
-    - [리스트](https://github.com/sieunp06/TIL/blob/main/Python/Python-List.md)
-    - [딕셔너리](https://github.com/sieunp06/TIL/blob/main/Python/Python-Dictionary.md)
-    - [집합](https://github.com/sieunp06/TIL/blob/main/Python/Python-Set.md)
+    - [리스트(List)](https://github.com/sieunp06/TIL/blob/main/Python/Python-List.md)
+    - [딕셔너리(Dictionary)](https://github.com/sieunp06/TIL/blob/main/Python/Python-Dictionary.md)
+    - [집합(Set)](https://github.com/sieunp06/TIL/blob/main/Python/Python-Set.md)
 
 ### 📌React
 - <strong>📁 Jest</strong>
@@ -68,12 +75,12 @@
 
 ### 📌Spring
 - <strong>📁 Spring JPA</strong>
-    - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
-    - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
-    - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
-    - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
     - <strong>📁 Trouble Shooting</strong>
         - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
     - <strong>📁 객체지향 쿼리</strong>
         - [JPQL]()
+    - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
+    - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
+    - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
+    - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
 - <strong>📁 Spring Security</strong>
