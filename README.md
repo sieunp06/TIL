@@ -53,8 +53,8 @@
     - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
     - [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-List.md)
     - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
-    - [프로토타입(prototype)]()
-    - [Object.freeze()와 Object.seal()]()
+    - [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Prototype.md)
+    - [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/const-vs-freeze-vs-seal.md)
 
 ### 📌Node.js
 - <strong>📁 npm</strong>
