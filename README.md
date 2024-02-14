@@ -37,7 +37,7 @@
  
 ### 📌Java
 - <strong>📁 Design Pattern</strong>
-    - [Adaptor Pattern]()
+    - [Adaptor Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Adaptor-Pattern.md)
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 - <strong>📁 JUnit5 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
@@ -54,6 +54,7 @@
     - [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-List.md)
     - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
     - [프로토타입(prototype)]()
+    - [Object.freeze()와 Object.seal()]()
 
 ### 📌Node.js
 - <strong>📁 npm</strong>
