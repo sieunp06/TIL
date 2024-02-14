@@ -146,11 +146,6 @@ console.log(Object.fromEntries(user));
 { name: 'mike', age: 30 }
 ```
 
-### Object.is()
-`Object.is()`는 두 값이 같은지 비교한다.
-
-
-
 ---
 ## References
 - [https://tcpschool.com/javascript/js_object_create](https://tcpschool.com/javascript/js_object_create)
