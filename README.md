@@ -20,7 +20,7 @@
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
 ### 📌Data Structure
-- <strong>📁Queue</strong>
+- <strong>📁 Queue</strong>
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
     - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
@@ -47,9 +47,10 @@
 
 ### 📌Javascript
 - <strong>📁 Grammar </strong>
-    - <strong>📁ES6</strong>
+    - <strong>📁 ES6</strong>
         - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/ES6/var-let-const.md)
     - [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/%3D%3D-and-%3D%3D%3D.md)
+    - [Infinity와 NaN 그리고 undefined vs null](https://github.com/sieunp06/TIL/blob/main/Javascript/Infinity-and-null-vs-undefined-vs-NaN.md)
     - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
     - [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-List.md)
     - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
@@ -85,3 +86,4 @@
     - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
     - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
 - <strong>📁 Spring Security</strong>
+    - [웹 애플리케이션의 일반적인 보안 취약성](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Common-security-vulnerabilities-in-web-applications.md)
