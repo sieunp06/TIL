@@ -3,6 +3,8 @@
 2. [✨ NaN](#✨-nan)
 3. [✨ null과 undefined](#✨-null과-undefined)
     - [❗ null과 undefined는 다르다.](#❗-null과-undefined는-다르다)
+    - [📌 null](#📌-null)
+    - [📌 undefined](#📌-undefined)
 
 ---
 ## ✨ Infinity
