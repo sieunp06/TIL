@@ -160,6 +160,46 @@ public void assertEquals_test() {
 ### assertTrue / assertFalse
 `assertTrue`는 값이 `true`인지 확인한다.
 
+```java
+public static void assertTrue(boolean condition) {
+    AssertTrue.assertTrue(condition);
+}
+```
+
+다음과 같이 전달 받은 `condition`이 true인지 false인지 확인한다.
+
+```java
+static void assertTrue(boolean condition) {
+    assertTrue(condition, (String) null);
+}
+
+static void assertTrue(boolean condition, String message) {
+    if (!condition) {
+        fail(buildPrefix(message) + EXPECTED_TRUE, true, false);
+    }
+}
+```
+
+만약 `condition`이 false라면 `fail`을 실행시켜 `AssertionFailedError`를 발생시킨다.
+
+```java
+static void fail(String message, Object expected, Object actual) {
+    throw new AssertionFailedError(message, expected, actual);
+}
+```
+
+#### 📌 Example
+다음은 정상적으로 테스트가 통과되는 예이다.
+
+```java
+@Test
+public void assertTrue_test() {
+    boolean test = true;
+
+    assertTrue(test);
+}
+```
+
 ### assertNull / assertNotNull
 `assertNull`는 값이 `null`인지 확인한다.
 
