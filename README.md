@@ -3,50 +3,52 @@
 가볍게 정리하는 TIL
 
 ## Categories
-- [Book](#📌book)
-- [Data Structure](#📌data-structure)
-- [Docker](#📌docker)
-- [FastAPI](#📌fastapi)
-- [IDE](#📌ide)
-- [Java](#📌java)
-- [Javascript](#📌javascript)
-- [Node.js](#📌nodejs)
-- [Python](#📌python)
-- [React](#📌react)
-- [Spring](#📌spring)
+- [Book](#book)
+- [Data Structure](#data-structure)
+- [Docker](#docker)
+- [FastAPI](#fastapi)
+- [IDE](#ide)
+- [Java](#java)
+- [Javascript](#javascript)
+- [Kotlin](#kotlin)
+- [Node.js](#nodejs)
+- [Python](#python)
+- [React](#react)
+- [Spring](#spring)
 
 -------
-### 📌Book
+### Book
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
-### 📌Data Structure
+### Data Structure
 - <strong>📁 Queue</strong>
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
     - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
 
-### 📌Docker
+### Docker
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
 
-### 📌FastAPI
+### FastAPI
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
 
-### 📌IDE
+### IDE
 - <strong>📁 IntelliJ</strong>
     - <strong>📁 Trouble Shooting</strong>
         - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Trouble%20Shooting/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
  
-### 📌Java
+### Java
 - <strong>📁 Design Pattern</strong>
     - [Adaptor Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Adaptor-Pattern.md)
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 - <strong>📁 JUnit5 </strong>
+- <strong>📁 JUnit5 & AssertJ3 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
     - [JUnit5 assert methods](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-assert-Methods.md)
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
 - [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
 
-### 📌Javascript
+### Javascript
 - <strong>📁 Grammar </strong>
     - <strong>📁 ES6</strong>
         - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/ES6/var-let-const.md)
@@ -58,11 +60,11 @@
     - [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Prototype.md)
     - [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/const-vs-freeze-vs-seal.md)
 
-### 📌Node.js
+### Node.js
 - <strong>📁 npm</strong>
     - [npm install options](https://github.com/sieunp06/TIL/blob/main/Node.js/npm/npm-install-options.md)
 
-### 📌Python
+### Python
 - <strong>📁 Grammar </strong>
     - [내장함수](https://github.com/sieunp06/TIL/blob/main/Python/Built-in-Functions.md)
     - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
@@ -72,11 +74,11 @@
     - [딕셔너리(Dictionary)](https://github.com/sieunp06/TIL/blob/main/Python/Python-Dictionary.md)
     - [집합(Set)](https://github.com/sieunp06/TIL/blob/main/Python/Python-Set.md)
 
-### 📌React
+### React
 - <strong>📁 Jest</strong>
     - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
 
-### 📌Spring
+### Spring
 - <strong>📁 Spring JPA</strong>
     - <strong>📁 Trouble Shooting</strong>
         - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
