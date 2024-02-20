@@ -203,19 +203,136 @@ public void assertTrue_test() {
 ### assertNull / assertNotNull
 `assertNull`는 값이 `null`인지 확인한다.
 
+```java
+public static void assertNull(Object actual) {
+    AssertNull.assertNull(actual);
+}
+```
+
+`actual`이 null인지 확인하고, null이 아닐 때 `failNotNull`을 실행한다.
+
+```java
+static void assertNull(Object actual) {
+    assertNull(actual, (String) null);
+}
+```
+
+```java
+static void assertNull(Object actual, String message) {
+    if (actual != null) {
+        failNotNull(actual, message);
+    }
+}
+```
+
+`failNotNUll`에서는 `AssertFailedError`를 발생시킨다.
+
+```java
+private static void failNotNull(Object actual, String message) {
+    String stringRepresentation = actual.toString();
+    if (stringRepresentation == null || stringRepresentation.equals("null")) {
+        fail(format(null, actual, message), null, actual);
+    }
+    else {
+        fail(buildPrefix(message) + "expected: <null> but was: <" + actual + ">", null, actual);
+    }
+}
+
+static void fail(String message, Object expected, Object actual) {
+    throw new AssertionFailedError(message, expected, actual);
+}
+```
+
+#### 📌 Example
+다음은 정상적으로 테스트가 통과되는 예이다.
+```java
+@Test
+public void assertNull_test() {
+    String test = null;
+
+    assertNull(test);
+}
+```
+
 ### assertAll
-`assertAll`은 
+`assertAll`은 `assertAll` 안에 존재하는 모든 assertion을 확인한다.
+
+```java
+public static void assertAll(Executable... executables) throws MultipleFailuresError {
+    AssertAll.assertAll(executables);
+}
+```
+
+`notEmpty`를 통해 실행하려는 assertion들의 array가 비어있는지 확인한 후, 각각의 assertion이 비어있는지도 확인한다.
+
+```java
+static void assertAll(String heading, Executable... executables) {
+    Preconditions.notEmpty(executables, "executables array must not be null or empty");
+    Preconditions.containsNoNullElements(executables, "individual executables must not be null");
+    assertAll(heading, Arrays.stream(executables));
+}
+```
+
+그 이후 `assertAll`을 실행한다.
+
+```java
+static void assertAll(String heading, Stream<Executable> executables) {
+    Preconditions.notNull(executables, "executables stream must not be null");
+
+    List<Throwable> failures = executables //
+            .map(executable -> {
+                Preconditions.notNull(executable, "individual executables must not be null");
+                try {
+                    executable.execute();
+                    return null;
+                }
+                catch (Throwable t) {
+                    UnrecoverableExceptions.rethrowIfUnrecoverable(t);
+                    return t;
+                }
+            }) //
+            .filter(Objects::nonNull) //
+            .collect(Collectors.toList());
+
+    if (!failures.isEmpty()) {
+        MultipleFailuresError multipleFailuresError = new MultipleFailuresError(heading, failures);
+        failures.forEach(multipleFailuresError::addSuppressed);
+        throw multipleFailuresError;
+    }
+}
+```
+
+#### 📌 Example
+다음은 정상적으로 테스트가 통과되는 예이다.
+
+```java
+@Test
+public void assertAll_test() {
+    String text = "sieun";
+
+    assertAll(
+        () -> assertEquals(text, "sieun"),
+        () -> assertSame(text, "sieun")
+    );
+}
+```
 
 ### assertThrows
-`assertThrows`는 
+`assertThrows`는 예상하는 exception이 발생하는지 확인한다.
 
-### assertTimeout
-
-### fail()
-`fail`은 테스트를 실패처리한다.
+```java
+@Test
+public void assertThrow_test() {
+    IllegalArgumentException illegalArgumentException =
+        assertThrows(IllegalArgumentException.class, () -> new Study(10, -1));
+    String message = illegalArgumentException.getMessage();
+    assertEquals("최소 참석인원은 0 보다 커야 합니다.", message);
+}
+```
 
 ---
 ## references
 - [https://incheol-jung.gitbook.io/docs/study/undefined-3/chap-05.-junit-5](https://incheol-jung.gitbook.io/docs/study/undefined-3/chap-05.-junit-5)
 - [https://velog.io/@roycewon/JUnit-Assert-Methods1](https://velog.io/@roycewon/JUnit-Assert-Methods1)
 - [http://blog.iotinfra.net/?p=1851](http://blog.iotinfra.net/?p=1851)
+- [https://gracelove91.tistory.com/108](https://gracelove91.tistory.com/108)
