@@ -3,10 +3,12 @@
 가볍게 정리하는 TIL
 
 ## Categories
+- [AWS](#aws)
 - [Book](#book)
 - [Data Structure](#data-structure)
 - [Docker](#docker)
 - [FastAPI](#fastapi)
+- [Git](#git)
 - [IDE](#ide)
 - [Java](#java)
 - [Javascript](#javascript)
@@ -17,6 +19,9 @@
 - [Spring](#spring)
 
 -------
+### AWS
+
+
 ### Book
 - [📕 Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
@@ -31,6 +36,8 @@
 ### FastAPI
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
 
+### Git
+
 ### IDE
 - <strong>📁 IntelliJ</strong>
     - <strong>📁 Trouble Shooting</strong>
@@ -40,10 +47,14 @@
 - <strong>📁 Design Pattern</strong>
     - [Adaptor Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Adaptor-Pattern.md)
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
-- <strong>📁 JUnit5 </strong>
+    - [Template Method Pattern]()
 - <strong>📁 JUnit5 & AssertJ3 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
     - [JUnit5 assert methods](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-assert-Methods.md)
+- <strong>📁 Mokito</strong>
+- <strong>📁 Versions</strong>
+    - [Java 7]()
+- [java.util.Math]()
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
 - [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
@@ -59,6 +70,8 @@
     - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
     - [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Prototype.md)
     - [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/const-vs-freeze-vs-seal.md)
+
+### Kotlin
 
 ### Node.js
 - <strong>📁 npm</strong>
