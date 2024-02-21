@@ -28,7 +28,7 @@
 ### Data Structure
 - <strong>📁 Queue</strong>
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
-    - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Java/PriorityQueue.md)
+    - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/PriorityQueue.md)
 
 ### Docker
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
@@ -49,13 +49,12 @@
     - [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
     - [Template Method Pattern]()
 - <strong>📁 JUnit5 & AssertJ3 </strong>
-    - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5/JUnit5-Annotations.md)
+    - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-Annotations.md)
     - [JUnit5 assert methods](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-assert-Methods.md)
 - <strong>📁 Lombok</strong>
     - [Lombok Annotations](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/Lombok-Annotations.md)
+    - [@Data를 지양해야 하는 이유](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/The-Reason-Why-We-Avoid-Using-%40Data.md)
 - <strong>📁 Mokito</strong>
-- <strong>📁 Versions</strong>
-    - [Java 7]()
 - [java.util.Math]()
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
