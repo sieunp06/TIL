@@ -51,6 +51,7 @@
 - <strong>📁 JUnit5 & AssertJ3 </strong>
     - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-Annotations.md)
     - [JUnit5 assert methods](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-assert-Methods.md)
+    - [AssertJ를 사용하는 이유](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/Why-Should-We-Use-AssertJ.md)
 - <strong>📁 Lombok</strong>
     - [Lombok Annotations](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/Lombok-Annotations.md)
     - [@Data를 지양해야 하는 이유](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/The-Reason-Why-We-Avoid-Using-%40Data.md)
