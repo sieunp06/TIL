@@ -57,6 +57,7 @@
 - <strong>📁 Mokito</strong>
 - [java.util.Math]()
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
+- [equals() vs hashCode()](https://github.com/sieunp06/TIL/blob/main/Java/equals-vs-hashCode.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
 - [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
 
