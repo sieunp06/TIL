@@ -1,4 +1,4 @@
-## java.sql.Date와 java.util.Date
+## java.util.Date와 java.sql.Date
 > ✨ 시, 분, 초의 유무
 
 ### java.util.Date
