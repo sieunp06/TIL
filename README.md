@@ -108,6 +108,7 @@
     - <strong>📁 객체지향 쿼리</strong>
         - [JPQL]()
     - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
+    - [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
     - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
     - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
     - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
