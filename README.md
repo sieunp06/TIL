@@ -28,6 +28,7 @@
 ### Data Structure
 - <strong>📁 Queue</strong>
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
+    - [Deque 덱](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Deque.md)
     - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/PriorityQueue.md)
 
 ### Docker
