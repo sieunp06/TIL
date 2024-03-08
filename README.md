@@ -64,6 +64,8 @@
     - <strong>📁 java.util package</strong>
         - [java.util.Date와 java.sql.Date](https://github.com/sieunp06/TIL/blob/main/Java/Packages/util%20package/java-util-Date-vs-java-sql-Date.md)
     - [java.time package](https://github.com/sieunp06/TIL/blob/main/Java/Packages/java-time.md)
+- <strong>📁 Stream API</strong>
+    - [Stream API](https://github.com/sieunp06/TIL/blob/main/Java/Stream/Stream-API.md)
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
 - [equals() vs hashCode()](https://github.com/sieunp06/TIL/blob/main/Java/equals-vs-hashCode.md)
 - [Mutable 객체 vs Immutable 객체](https://github.com/sieunp06/TIL/blob/main/Java/mutable-vs-immutable.md)
