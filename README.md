@@ -38,6 +38,8 @@
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
 
 ### Git
+- <strong>📁 Commit Message Style Guide</strong>
+    - [Angular.Js Commit Message Conventions](https://github.com/sieunp06/TIL/blob/main/Git/Commit%20Message%20Style%20Guide/Angular-Js-Git-Commit-Message-Convetions.md)
 
 ### IDE
 - <strong>📁 IntelliJ</strong>
