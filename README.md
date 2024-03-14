@@ -34,6 +34,7 @@
 
 ### Database
 - [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
+- [데이터 무결성과 데이터 정합성](https://github.com/sieunp06/TIL/blob/main/Database/Data-Integrity-and-Data-Consistency.md)
 
 ### Docker
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
