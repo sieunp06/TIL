@@ -6,6 +6,7 @@
 - [AWS](#aws)
 - [Book](#book)
 - [Data Structure](#data-structure)
+- [Database](#database)
 - [Docker](#docker)
 - [FastAPI](#fastapi)
 - [Git](#git)
@@ -30,6 +31,9 @@
     - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
     - [Deque 덱](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Deque.md)
     - [PriorityQueue 우선순위큐](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/PriorityQueue.md)
+
+### Database
+- [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
 
 ### Docker
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
