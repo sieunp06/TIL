@@ -11,6 +11,7 @@
 - [FastAPI](#fastapi)
 - [Git](#git)
 - [IDE](#ide)
+- [Infra](#infra)
 - [Java](#java)
 - [Javascript](#javascript)
 - [Kotlin](#kotlin)
@@ -51,6 +52,9 @@
 - <strong>📁 IntelliJ</strong>
     - <strong>📁 Trouble Shooting</strong>
         - [IntelliJ “Cannot resolve symbol ‘SpringBootApplication’” 해결](https://github.com/sieunp06/TIL/blob/main/IDE/IntelliJ/Trouble%20Shooting/Cannot-resolve-symbol-SpringBootApplication-Trouble-Shooting.md)
+
+### Infra
+- [클라우드 서비스 모델(IaaS, PaaS, SaaS)](https://github.com/sieunp06/TIL/blob/main/Infra/Cloud-Service-Model.md)
  
 ### Java
 - <strong>📁 Design Pattern</strong>
