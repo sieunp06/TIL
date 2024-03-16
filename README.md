@@ -112,6 +112,7 @@
 ### React
 - <strong>📁 Jest</strong>
     - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
+- [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
 
 ### Spring
 - <strong>📁 Spring JPA</strong>
