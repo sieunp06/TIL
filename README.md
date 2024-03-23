@@ -46,6 +46,8 @@
 ### Git
 - <strong>📁 Commit Message Style Guide</strong>
     - [Angular.Js Commit Message Conventions](https://github.com/sieunp06/TIL/blob/main/Git/Commit%20Message%20Style%20Guide/Angular-Js-Git-Commit-Message-Convetions.md)
+- <strong>📁 Github Actions</strong>
+    - [The Component of Github Actions](https://github.com/sieunp06/TIL/blob/main/Git/Github%20Actions/The-Component-of-Github-Actions.md)
 
 ### IDE
 - <strong>📁 IntelliJ</strong>
