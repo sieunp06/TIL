@@ -3,23 +3,29 @@
 가볍게 정리하는 TIL
 
 ## Categories
-- [AWS](#aws)
-- [Book](#book)
-- [Data Structure](#data-structure)
-- [Database](#database)
-- [Docker](#docker)
-- [FastAPI](#fastapi)
-- [Git](#git)
-- [IDE](#ide)
-- [Infra](#infra)
-- [Java](#java)
-- [Javascript](#javascript)
-- [Kotlin](#kotlin)
-- [Python](#python)
-- [React](#react)
-- [Spring](#spring)
+- [🌞TIL: Today I Learned](#til-today-i-learned)
+  - [Categories](#categories)
+    - [Architecture \& Design](#architecture--design)
+    - [AWS](#aws)
+    - [Book](#book)
+    - [Data Structure](#data-structure)
+    - [Database](#database)
+    - [Docker](#docker)
+    - [FastAPI](#fastapi)
+    - [Git](#git)
+    - [IDE](#ide)
+    - [Infra](#infra)
+    - [Java](#java)
+    - [Javascript](#javascript)
+    - [Kotlin](#kotlin)
+    - [Python](#python)
+    - [React](#react)
+    - [Spring](#spring)
 
 -------
+### Architecture & Design
+- [MSA(MicroService Architecture)]()
+
 ### AWS
 
 
@@ -48,6 +54,7 @@
     - [Angular.Js Commit Message Conventions](https://github.com/sieunp06/TIL/blob/main/Git/Commit%20Message%20Style%20Guide/Angular-Js-Git-Commit-Message-Convetions.md)
 - <strong>📁 Github Actions</strong>
     - [The Component of Github Actions](https://github.com/sieunp06/TIL/blob/main/Git/Github%20Actions/The-Component-of-Github-Actions.md)
+    - [Workflow Syntax for Github Actions](https://github.com/sieunp06/TIL/blob/main/Git/Github%20Actions/Workflow-Syntax-for-Github-Actions.md)
 
 ### IDE
 - <strong>📁 IntelliJ</strong>
@@ -70,6 +77,7 @@
 - <strong>📁 Lombok</strong>
     - [Lombok Annotations](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/Lombok-Annotations.md)
     - [@Data를 지양해야 하는 이유](https://github.com/sieunp06/TIL/blob/main/Java/Lombok/The-Reason-Why-We-Avoid-Using-%40Data.md)
+    - [@NoArgsConstructor의 접근 권한]()
 - <strong>📁 Mokito</strong>
 - <strong>📁 Packages</strong>
     - <strong>📁 java.lang package</strong>
@@ -79,11 +87,16 @@
     - [java.time package](https://github.com/sieunp06/TIL/blob/main/Java/Packages/java-time.md)
 - <strong>📁 Stream API</strong>
     - [Stream API](https://github.com/sieunp06/TIL/blob/main/Java/Stream/Stream-API.md)
+    - [Parallel Stream 병렬처리 스트림]()
+- [JVM 자바가상머신]()
+- [Java 버전 별 특징]()
 - [Access Modifier 접근 제어자](https://github.com/sieunp06/TIL/blob/main/Java/Java-Access-Modifier.md)
+- [Garbage Collection 가비지 컬랙션]()
 - [equals() vs hashCode()](https://github.com/sieunp06/TIL/blob/main/Java/equals-vs-hashCode.md)
 - [Mutable 객체 vs Immutable 객체](https://github.com/sieunp06/TIL/blob/main/Java/mutable-vs-immutable.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
 - [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
+- [Generic 제네릭]()
 
 ### Javascript
 - <strong>📁 ES6</strong>
@@ -95,6 +108,7 @@
     - [npm install options](https://github.com/sieunp06/TIL/blob/main/Javascript/Package%20Manager/npm-install-options.md)
 - <strong>📁 Webpack</strong>
     - [Webpack 그리고 Webpack의 빌드 과정](https://github.com/sieunp06/TIL/blob/main/Javascript/Webpack/What-is-Webpack.md)
+    - [Webpack의 Code Splitting]()
 - [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/%3D%3D-and-%3D%3D%3D.md)
 - [Infinity와 NaN 그리고 undefined vs null](https://github.com/sieunp06/TIL/blob/main/Javascript/Infinity-and-null-vs-undefined-vs-NaN.md)
 - [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
@@ -118,7 +132,10 @@
 ### React
 - <strong>📁 Jest</strong>
     - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
+- <strong>📁 JSX</strong>
 - [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
+- [CRA 없이 React 시작하기]()
+- [Virtual DOM(Document Object Model)]()
 
 ### Spring
 - <strong>📁 Spring JPA</strong>
@@ -126,10 +143,14 @@
         - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
     - <strong>📁 객체지향 쿼리</strong>
         - [JPQL]()
+        - [QueryDSL]()
     - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
     - [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
     - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
     - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
     - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
+    - [프록시와 연관관계 관리]()
+    - [repository 메서드 생성 규칙]()
 - <strong>📁 Spring Security</strong>
     - [웹 애플리케이션의 일반적인 보안 취약성](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Common-security-vulnerabilities-in-web-applications.md)
+- [DI(Dependency Injection) 의존관계 주입]()
