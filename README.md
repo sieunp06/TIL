@@ -17,6 +17,7 @@
 - [Python](#python)
 - [React](#react)
 - [Spring](#spring)
+- [Typescript](#typescript)
 
 -------
 ### Book
@@ -130,3 +131,7 @@
     - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
 - <strong>📁 Spring Security</strong>
     - [웹 애플리케이션의 일반적인 보안 취약성](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Common-security-vulnerabilities-in-web-applications.md)
+  
+### Typescript
+- <strong>📁 Trouble Shooting</strong>
+  - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
