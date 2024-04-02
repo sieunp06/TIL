@@ -133,4 +133,5 @@
   
 ### Typescript
 - <strong>📁 Trouble Shooting</strong>
-  - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
+    - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
+    - [Unknown property 'css' found 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
