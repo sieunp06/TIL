@@ -2,7 +2,7 @@
 
 ## 🐛ISSUE
 
-![picture](./images/Trouble%20Shooting/does%20not%20exist%20on%20type%20'jsx.intrinsicelements'/picture1.png)
+![picture](./images/does%20not%20exist%20on%20type%20'jsx.intrinsicelements'/picture1.png)
 
 `Typescript` 로 개발을 하다 위 사진과 같이 `introPage` 부분에서 다음 오류가 발생하였다.
 
