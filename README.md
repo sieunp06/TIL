@@ -117,7 +117,6 @@
 ### React
 - <strong>📁 Jest</strong>
     - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
-- <strong>📁 JSX</strong>
 - [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
 
 ### Spring
