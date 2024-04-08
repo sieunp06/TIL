@@ -143,6 +143,7 @@
 
 #### **📌 Emotion & Styled-component**
 - [Emotion vs Styled-component](https://github.com/sieunp06/TIL/blob/main/React/Emotion-vs-Styled-component.md)
+- [Emotion 사용법](https://github.com/sieunp06/TIL/blob/main/React/Emotion%20%26%20Styled-component/How-to-use-Emotion.md)
 
 <br>
 
