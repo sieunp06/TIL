@@ -1,4 +1,14 @@
 ### 목차
+- [기본 타입](#기본-타입)
+  - [문자열 String](#문자열-string)
+  - [숫자 Number](#숫자-number)
+- [리터럴 타입](#리터럴-타입)
+- [배열(Array)의 타입](#배열array의-타입)
+- [튜플(Tuple)의 타입](#튜플tuple의-타입)
+- [열거형(Enum)의 타입](#열거형enum의-타입)
+- [Any](#any)
+- [Void](#void)
+- [Never](#never)
 
 ---
 ## 기본 타입
