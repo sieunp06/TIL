@@ -62,11 +62,7 @@
 #### **📖 Book**
 - [Effective Java 3/E](https://github.com/sieunp06/TIL/tree/main/Book/Effective%20Java)
 
-#### **📌 Design Pattern**
-- [Adaptor Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Adaptor-Pattern.md)
-- [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
-
-#### **📌 Grammar**
+#### **📄 Grammar**
 - **✨ Queue**
   - [Queue add vs offer](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Difference-between-add-and-offer-in-queue.md)
   - [Deque 덱](https://github.com/sieunp06/TIL/blob/main/Data%20Structure/Queue/Deque.md)
@@ -76,6 +72,10 @@
 - [Mutable 객체 vs Immutable 객체](https://github.com/sieunp06/TIL/blob/main/Java/mutable-vs-immutable.md)
 - [Checked Exception vs Unchecked Exception](https://github.com/sieunp06/TIL/blob/main/Java/Checked-Exception-vs-Unchecked-Exception.md)
 - [Fuctional Interface 함수형 인터페이스](https://github.com/sieunp06/TIL/blob/main/Java/Functional-Interface.md)
+
+#### **📌 Design Pattern**
+- [Adaptor Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Adaptor-Pattern.md)
+- [Iterator Pattern](https://github.com/sieunp06/TIL/blob/main/Java/Design%20Pattern/Iterator-Pattern.md)
 
 #### **📌 JUnit5 & AssertJ3**
 - [JUnit5 Annotations](https://github.com/sieunp06/TIL/blob/main/Java/JUnit5%20%26%20AssertJ3/JUnit5-Annotations.md)
@@ -100,7 +100,7 @@
 <br>
 
 ### Javascript
-#### **📌 Grammar**
+#### **📄 Grammar**
 - **✨ ES6**
   - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/ES6/var-let-const.md)
 - [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/%3D%3D-and-%3D%3D%3D.md)
@@ -123,7 +123,7 @@
 <br>
 
 ### Python
-#### **📌 Grammar**
+#### **📄 Grammar**
 - [내장함수](https://github.com/sieunp06/TIL/blob/main/Python/Built-in-Functions.md)
 - [자료형의 참과 거짓](https://github.com/sieunp06/TIL/blob/main/Python/True-and-False-of-Data-Types.md)
 - [문자열 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Python/String-related-functions.md)
@@ -163,6 +163,8 @@
 <br>
 
 ### Typescript
+- **📄 Grammar**
+  - [Typescript의 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/Typescript-type.md)
 - **🐛 Trouble Shooting**
   - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
   - [Unknown property 'css' found 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
