@@ -164,9 +164,9 @@
 <br>
 
 ### Typescript
-- **📄 Grammar**
+#### **📄 Grammar**
   - [Typescript의 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/Typescript-type.md)
   - [ReactNode, ReactChild, ReactElement 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/ReactNode-ReactChild-ReactElement.md)
-- **🐛 Trouble Shooting**
+#### **🐛 Trouble Shooting**
   - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
   - [Unknown property 'css' found 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
