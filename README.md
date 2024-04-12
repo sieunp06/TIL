@@ -137,13 +137,14 @@
 ### React
 #### **📌 Basic**
 - [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
-
-#### **📌 Jest**
-- [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
+- [Conditional Rendering 조건부 렌더링](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Conditional-Rendering.md)
 
 #### **📌 Emotion & Styled-component**
 - [Emotion vs Styled-component](https://github.com/sieunp06/TIL/blob/main/React/Emotion-vs-Styled-component.md)
 - [Emotion 사용법](https://github.com/sieunp06/TIL/blob/main/React/Emotion%20%26%20Styled-component/How-to-use-Emotion.md)
+
+#### **📌 Jest**
+- [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
 
 <br>
 
@@ -165,6 +166,7 @@
 ### Typescript
 - **📄 Grammar**
   - [Typescript의 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/Typescript-type.md)
+  - [ReactNode, ReactChild, ReactElement 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/ReactNode-ReactChild-ReactElement.md)
 - **🐛 Trouble Shooting**
   - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
   - [Unknown property 'css' found 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
