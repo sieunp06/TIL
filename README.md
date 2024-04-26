@@ -137,6 +137,7 @@
 ### React
 #### **📌 Basic**
 - [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
+- [React의 클래스형과 함수형 컴포넌트](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Class-Function.md)
 - [Conditional Rendering 조건부 렌더링](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Conditional-Rendering.md)
 
 #### **📌 Emotion & Styled-component**
