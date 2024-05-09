@@ -1,4 +1,8 @@
 ### 목차
+- [PasswordEncoder](#passwordencoder)
+	- [PasswordEncoder의 구현 클래스](#passwordencoder의-구현-클래스)
+	- [BCryptPasswordEncoder](#bcryptpasswordencoder)
+		- [동작 원리](#동작-원리)
 
 ---
 # PasswordEncoder
@@ -69,14 +73,56 @@ public String encode(CharSequence rawPassword) {
 }
 ```
 
-
+`getSalt()` 메서드를 통해 매번 새로운 Salt 값을 생성하고, 이 값을 통해 `BCrypt.hashpw()` 메서드에서 최종적으로 해싱된 비밀번호를 얻게 된다.
 
 ```java
 private String getSalt() {
-    if (this.random != null) {
-        return BCrypt.gensalt(this.version.getVersion(), this.strength, this.random);
-    }
-    return BCrypt.gensalt(this.version.getVersion(), this.strength);
+	if (this.random != null) {
+		return BCrypt.gensalt(this.version.getVersion(), this.strength, this.random);
+	}
+	return BCrypt.gensalt(this.version.getVersion(), this.strength);
 }
+```
+
+`getSalt()` 메서드에서는 아래 `gensalt()` 메서드를 통해 salt 값을 반환한다.
+
+```java
+public static String gensalt(String prefix, int log_rounds, SecureRandom random) throws IllegalArgumentException {
+	StringBuilder rs = new StringBuilder();
+	byte rnd[] = new byte[BCRYPT_SALT_LEN];
+
+	if (!prefix.startsWith("$2")
+			|| (prefix.charAt(2) != 'a' && prefix.charAt(2) != 'y' && prefix.charAt(2) != 'b')) {
+		throw new IllegalArgumentException("Invalid prefix");
+	}
+	if (log_rounds < 4 || log_rounds > 31) {
+		throw new IllegalArgumentException("Invalid log_rounds");
+	}
+
+	random.nextBytes(rnd);
+
+	rs.append("$2");
+	rs.append(prefix.charAt(2));
+	rs.append("$");
+	if (log_rounds < 10) {
+		rs.append("0");
+	}
+	rs.append(log_rounds);
+	rs.append("$");
+	encode_base64(rnd, rnd.length, rs);
+	return rs.toString();
+}
+```
+
+위 `gensalt()` 메서드를 통해 다음과 같은 형태의 salt가 생성된다.
+
+```
+salt = BCryptVersion + "$" + log_rounds + "$" + real_salt 
+```
+
+최종적으로 해싱 값은 다음과 같다.
+
+```
+salt 값 + (원문 + salt 값을 해싱한 값)
 ```
 
