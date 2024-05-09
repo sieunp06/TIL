@@ -13,7 +13,7 @@
 - [Javascript](#javascript)
 - [Python](#python)
 - [React](#react)
-- [Security]
+- [Security](#security)
 - [Spring](#spring)
 - [Typescript](#typescript)
 
