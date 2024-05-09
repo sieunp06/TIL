@@ -13,6 +13,7 @@
 - [Javascript](#javascript)
 - [Python](#python)
 - [React](#react)
+- [Security]
 - [Spring](#spring)
 - [Typescript](#typescript)
 
@@ -153,6 +154,8 @@
 
 <br>
 
+### Security
+- [암호화와 복호화, 그리고 암호화의 분류](https://github.com/sieunp06/TIL/blob/main/Security/encryption-methods.md)
 ### Spring
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
