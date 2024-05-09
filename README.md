@@ -156,6 +156,9 @@
 
 ### Security
 - [암호화와 복호화, 그리고 암호화의 분류](https://github.com/sieunp06/TIL/blob/main/Security/encryption-methods.md)
+
+<br>
+
 ### Spring
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
@@ -169,6 +172,9 @@
 #### **📌 Spring Security**
 - **✨ JWT(JSON Web Token)** 
   - [JWT(JSON Web Token)이란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/JWT/What-is-JWT.md)
+- **🔒 PasswordEncoder**
+  - [PasswordEncoder란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/PasswordEncoder/PasswordEncoder.md)
+  - [BCryptPasswordEncoder](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/PasswordEncoder/BCryptPasswordEncoder.md)
 - [웹 애플리케이션의 일반적인 보안 취약성](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Common-security-vulnerabilities-in-web-applications.md)
 
 <br>
