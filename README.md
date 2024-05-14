@@ -159,7 +159,10 @@
 
 <br>
 
-### Spring
+### 🌿Spring
+#### **📌 Spring**
+- [ResponseEntity 사용법](https://github.com/sieunp06/TIL/blob/main/Spring/ResponseEntity.md)
+
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
   - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
