@@ -155,7 +155,7 @@
 
 <br>
 
-### Security
+### 🔒 Security
 - [암호화와 복호화, 그리고 암호화의 분류](https://github.com/sieunp06/TIL/blob/main/Security/encryption-methods.md)
 
 <br>
@@ -174,6 +174,9 @@
 - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
 
 #### **📌 Spring Security**
+- **🐛 Trouble Shooting**
+  - [403 Forbidden](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/403-Forbidden.md)
+  - [406 Not Acceptable](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/406-Not-Acceptable.md)
 - **✨ JWT(JSON Web Token)** 
   - [JWT(JSON Web Token)이란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/JWT/What-is-JWT.md)
 - **🔒 PasswordEncoder**
