@@ -167,6 +167,7 @@
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
   - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
+  - [not-null property references a null or transient value 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/not-null-property-references-a-null-or-transient-value.md)
 - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
 - [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
 - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
