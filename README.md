@@ -163,6 +163,7 @@
 ### 🌿Spring
 #### **📌 Spring**
 - [ResponseEntity 사용법](https://github.com/sieunp06/TIL/blob/main/Spring/ResponseEntity.md)
+- [@Controller와 @RestController의 차이](https://github.com/sieunp06/TIL/blob/main/Spring/%40Controller-and-%40RestController.md)
 
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
@@ -188,7 +189,11 @@
 <br>
 
 ### Testing
+#### **📌 Testing**
 - [Test Double](https://github.com/sieunp06/TIL/blob/main/Testing/Test-Double.md)
+
+#### **📌 Test Pattern & Strategy**
+- [Given-When-Then 패턴](https://github.com/sieunp06/TIL/blob/main/Testing/Pattern%20%26%20Strategy/Given-When-Then.md)
 
 <br>
 
