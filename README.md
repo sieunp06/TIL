@@ -20,14 +20,16 @@
 
 
 ---
-### Database
-- [키(key)의 개념 및 종류](https://github.com/sieunp06/TIL/blob/main/Database/Type-of-Keys.md)
-- [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
-- [데이터 무결성과 데이터 정합성](https://github.com/sieunp06/TIL/blob/main/Database/Data-Integrity-and-Data-Consistency.md)
+### 💾 Database
+#### **📌 Database**
+  - [키(key)의 개념 및 종류](https://github.com/sieunp06/TIL/blob/main/Database/Type-of-Keys.md)
+  - [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
+  - [데이터 무결성과 데이터 정합성](https://github.com/sieunp06/TIL/blob/main/Database/Data-Integrity-and-Data-Consistency.md)
 
 <br>
 
-### Docker
+### 🐋 Docker
+#### **📌 Docker**
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
 - [Dockerfile 작성법](https://github.com/sieunp06/TIL/blob/main/Docker/What-is-Dockerfile.md)
 - [docker-compose란?](https://github.com/sieunp06/TIL/blob/main/Docker/What-is-Docker-compose.md)
@@ -35,6 +37,7 @@
 <br>
 
 ### FastAPI
+#### **📌 FastAPI**
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
 
 <br>
@@ -56,6 +59,7 @@
 <br>
 
 ### Infra
+#### **☁️ Cloud**
 - [클라우드 서비스 모델(IaaS, PaaS, SaaS)](https://github.com/sieunp06/TIL/blob/main/Infra/Cloud-Service-Model.md)
 
 <br>
@@ -136,8 +140,8 @@
 
 <br>
 
-### React
-#### **📌 Basic**
+### 🌼 React
+#### **📌 React**
 - [React의 CRA](https://github.com/sieunp06/TIL/blob/main/React/React-CRA.md)
 - [React의 클래스형과 함수형 컴포넌트](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Class-Function.md)
 - [Conditional Rendering 조건부 렌더링](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Conditional-Rendering.md)
@@ -168,7 +172,7 @@
 #### **📌 Spring JPA**
 - **🐛 Trouble Shooting**
   - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
-  - [not-null property references a null or transient value 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/not-null-property-references-a-null-or-transient-value.md)
+  - ["not-null property references a null or transient value" 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/not-null-property-references-a-null-or-transient-value.md)
 - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
 - [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
 - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
@@ -177,8 +181,8 @@
 
 #### **📌 Spring Security**
 - **🐛 Trouble Shooting**
-  - [403 Forbidden](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/403-Forbidden.md)
-  - [406 Not Acceptable](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/406-Not-Acceptable.md)
+  - ["403 Forbidden" 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/403-Forbidden.md)
+  - ["406 Not Acceptable" 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/Trouble%20Shooting/406-Not-Acceptable.md)
 - **✨ JWT(JSON Web Token)** 
   - [JWT(JSON Web Token)이란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20Security/JWT/What-is-JWT.md)
 - **🔒 PasswordEncoder**
@@ -202,5 +206,5 @@
   - [Typescript의 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/Typescript-type.md)
   - [ReactNode, ReactChild, ReactElement 타입](https://github.com/sieunp06/TIL/blob/main/Typescript/Grammar/ReactNode-ReactChild-ReactElement.md)
 #### **🐛 Trouble Shooting**
-  - [does not exist on type ‘jsx.intrinsicelements’ 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
-  - [Unknown property 'css' found 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
+  - ["does not exist on type ‘jsx.intrinsicelements’" 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/does-not-exist-on-type-jsx-intrinsicelements.md)
+  - ["Unknown property 'css' found" 해결](https://github.com/sieunp06/TIL/blob/main/Typescript/Trouble%20Shooting/Unknown-property-css-found.md)
