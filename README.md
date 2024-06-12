@@ -116,6 +116,7 @@
 - [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
 - [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Prototype.md)
 - [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/const-vs-freeze-vs-seal.md)
+- [ASCII 사용하기](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/How-to-Use-ASCII-in-JS.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
