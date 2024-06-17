@@ -108,15 +108,19 @@
 ### Javascript
 #### **📄 Grammar**
 - **✨ ES6**
-  - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/ES6/var-let-const.md)
-- [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/%3D%3D-and-%3D%3D%3D.md)
-- [Infinity와 NaN 그리고 undefined vs null](https://github.com/sieunp06/TIL/blob/main/Javascript/Infinity-and-null-vs-undefined-vs-NaN.md)
-- [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/String-Related-Functions.md)
-- [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-List.md)
-- [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Object.md)
-- [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Javascript-Prototype.md)
-- [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/const-vs-freeze-vs-seal.md)
+  - [var 그리고 let과 const](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/ES6/var-let-const.md)
+- [==와 ===](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/%3D%3D-and-%3D%3D%3D.md)
+- [Infinity와 NaN 그리고 undefined vs null](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/Infinity-and-null-vs-undefined-vs-NaN.md)
+- [String 관련 함수들](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/String-Related-Functions.md)
+- [배열(List)](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/Javascript-List.md)
+- [객체(Object)](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/Javascript-Object.md)
+- [프로토타입(prototype)](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/Javascript-Prototype.md)
+- [const vs Object.freeze() vs Object.seal()](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/const-vs-freeze-vs-seal.md)
 - [ASCII 사용하기](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/How-to-Use-ASCII-in-JS.md)
+
+#### **📖Book**
+- **✨ 모던 자바스크립트 Deep Dive**
+  - [02장 자바스크립트란?](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch2-What-is-Javscript.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
