@@ -122,6 +122,7 @@
 - **✨ 모던 자바스크립트 Deep Dive**
   - [02장 자바스크립트란?](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch2-What-is-Javscript.md)
   - [04장 변수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch04-variable.md)
+  - [06장 데이터 타입](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch06-data-type.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
