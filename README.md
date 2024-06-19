@@ -124,6 +124,7 @@
   - [04장 변수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch04-variable.md)
   - [06장 데이터 타입](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch06-data-type.md)
   - [07장 연산자](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch07-operator.md)
+  - [08장 제어문](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch08-control-flow-statement.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
