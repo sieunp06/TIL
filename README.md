@@ -125,6 +125,7 @@
   - [06장 데이터 타입](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch06-data-type.md)
   - [07장 연산자](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch07-operator.md)
   - [08장 제어문](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch08-control-flow-statement.md)
+  - [09장 타입 변환과 단축 평가](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch09-type-casting.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
