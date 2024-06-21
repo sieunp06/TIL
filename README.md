@@ -127,6 +127,7 @@
   - [08장 제어문](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch08-control-flow-statement.md)
   - [09장 타입 변환과 단축 평가](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch09-type-casting.md)
   - [10장 객체 리터럴](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch10-object.md)
+  - [11장 원시 값과 객체의 비교](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch11-primitive-type-and-object-type.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
