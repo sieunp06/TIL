@@ -129,6 +129,7 @@
   - [10장 객체 리터럴](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch10-object.md)
   - [11장 원시 값과 객체의 비교](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch11-primitive-type-and-object-type.md)
   - [12장 함수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch12-function.md)
+  - [15장 let, const 키워드와 블록 레벨 스코프](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch15-let-const-var.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
