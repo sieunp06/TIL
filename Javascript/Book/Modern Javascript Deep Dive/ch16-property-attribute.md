@@ -1,4 +1,15 @@
 ### 목차
+- [내부 슬롯과 내부 메서드](#내부-슬롯과-내부-메서드)
+- [프로퍼티 어트리뷰트와 프로퍼티 디스크립터 객체](#프로퍼티-어트리뷰트와-프로퍼티-디스크립터-객체)
+- [데이터 프로퍼티와 접근자 프로퍼티](#데이터-프로퍼티와-접근자-프로퍼티)
+  - [데이터 프로퍼티](#데이터-프로퍼티)
+  - [접근자 프로퍼티](#접근자-프로퍼티)
+- [프로퍼티 정의](#프로퍼티-정의)
+- [객체 변경 방지](#객체-변경-방지)
+  - [객체 확장 금지](#객체-확장-금지)
+  - [객체 밀봉](#객체-밀봉)
+  - [객체 동결](#객체-동결)
+  - [불변 객체](#불변-객체)
 
 ---
 > 자바스크립트 Deep Dive
@@ -270,6 +281,8 @@ Object.getOwnPropertyDescriptor(function() {}, 'prototype');
 
 <br>
 
+다음과 같이 프로퍼티를 정의하자.
+
 ```js
 const person = {};
 
@@ -285,13 +298,24 @@ Object.defineProperty(person, 'lastName', {
     value: 'Lee'
 });
 ```
+
+<br>
+
+`firstName` 프로퍼티의 경우 모든 프로퍼티 어트리뷰트를 정의했기 때문에 프로퍼티 디스크립터 객체는 다음과 같다.
+
 ```js
 let descriptor = Object.getOwnPropertyDescriptor(person, 'firstName');
 console.log('firstName', descriptor);
 // first {value: "Ungmo", writable: true, enumerable: true, configurable: true}
 ```
+
+<br>
+
+`lastName` 프로퍼티는 `value`만 정의했다.
+
+이때 디스크립터 객체의 프로퍼티를 누락시키면 `undefined`와 `false`가 기본값이 된다.
+
 ```js
-// 디스크립터 객체의 프로퍼티를 누락시키면 undefined와 false가 기본값이다.
 let descriptor = Object.getOwnPropertyDescriptor(person, 'lastName');
 console.log('lastName', descriptor);
 // lastName {value: "Lee", writable: false, enumerable: false, configurable:}
@@ -299,7 +323,275 @@ console.log('lastName', descriptor);
 
 <br>
 
-```js
-// [[Enumerable]]의 값이 false인 경우
+`lastName` 프로퍼티는 `[[Enumerable]]`, `[[Writable]]`, `[[Configurable]]`의 값이 false이다.
 
+```js
+// [[Enumerable]]의 값이 false인 경우, 해당 프로퍼티는 for ... in 문이나 Object.keys 등으로 열거할 수 없다.
+console.log(Object.keys(person));   // ["firstName"]
+```
+```js
+// [[Writable]]의 값이 false인 경우, 해당 프로퍼티의 [[Value]]의 값을 변경할 수 없다.
+// 이때 값을 변경하면 에러는 발생하지 않고 무시된다.
+person.lastName = 'Kim';
+```
+```js
+// [[Configurable]]의 값이 false인 경우 해당 프로퍼티를 삭제할 수 없다.
+// 이때 프로퍼티를 삭제하면 에러는 발생하지 않고 무시된다.
+delete person.lastName;
+
+// [[Configurable]]의 값이 false이면 해당 프로퍼티를 재정의할 수 없다.
+descriptor = Object.getOwnPropertyDescriptor(person, 'lastName');
+console.log('lastName', descriptor);
+// lastName {value: "Lee", writable: false, enuerable: false, configurable: false}
+
+// 접근자 프로퍼티 정의
+Object.defineProperty(person, 'fullName', {
+    // getter
+    get() {
+        return `${this.firstName} ${this.lastName}`;
+    },
+    // setter
+    set(name) {
+        [this.firstName, this.lastName] = name.split(' ');
+    },
+    enumerable: true,
+    configurable: true
+});
+
+descriptor = Object.getOwnPropertyDescriptor(person, 'fullName');
+console.log('fullName', descriptor);
+// fullName {get: f, set: f, enumerable: true, configurable: true}
+
+person.fullName = 'Heegun Lee';
+console.log(person);    // {firstName: "Heegun", lastName: "Lee"}
+```
+
+<br>
+
+`Object.defineProperty` 메서드로 프로퍼티를 정의할 때 프로퍼티 디스크립터 객체의 프로퍼티를 일부 생략할 수 있다.
+
+이때 생략된 어트리뷰트는 다음 기본값이 적용된다.
+
+<br>
+
+|프로퍼티 디스크립터 객체의 프로퍼티|대응하는 프로퍼티 어트리뷰트|생략했을 때의 기본값|
+|--|--|--|
+|value|[[Value]]|undefined|
+|get|[[Get]]|undefined|
+|set|[[Set]]|undefined|
+|writable|[[Writable]]|false|
+|enumerable|[[Enumerable]]|false|
+|Configurable|[[Configurable]]|false|
+
+
+<br>
+
+`Object.defineProperty` 메서드는 한번에 하나의 프로퍼티만 정의할 수 있다.
+
+이때 `Object.defineProperties` 메서드를 사용하면 여러 개의 프로퍼티를 한 번에 정의할 수 있다.
+
+```js
+const person = {};
+
+Object.defineProperties(person, {
+    // 데이터 프로퍼티 정의
+    firstName: {
+        value: 'Ungmo',
+        ...
+    },
+    lastName: {
+        value: 'Lee',
+        ...
+    },
+    // 접근자 프로퍼티 정의
+    fullName: {
+        get() {
+            ...
+        },
+        set(name) {
+            ...
+        },
+        ...
+    }
+});
+
+person.fullName = 'Heegun Lee';
+console.log(person);    // {firstName: "Heegun", lastName: "Lee"}
+```
+
+## 객체 변경 방지
+객체는 변경 가능한 값이므로 재할당 없이 직접 변경할 수 있다.
+
+즉, 프로퍼티를 추가하거나 삭제할 수 있고, 프로퍼티 값을 갱신할 수 있으며, `Object.defineProperty` 또는 `Object.defineProperties` 메서드를 사용하여 프로퍼티 어트리뷰트를 재정의할 수 있다.
+
+<br>
+
+자바스크립트는 객체의 변경을 방지하는 다양한 메서드를 제공한다.
+
+객체 변경 방지 메서드들은 객체의 변경을 금지하는 강도가 다르다.
+
+<br>
+
+|구분|메서드|프로퍼티 추가|프로퍼티 삭제|프로퍼티 값 읽기|프로퍼티 값 쓰기|프로퍼티 어트리뷰트 재정의|
+|--|--|--|--|--|--|--|
+|객체 확장 금지|Object.preventExtensions|X|O|O|O|O|
+|객체 밀봉|Object.seal|X|X|O|O|X|
+|객체 동결|Object.freeze|X|X|O|X|X|
+
+### 객체 확장 금지
+`Object.preventExtensions` 메서드는 객체의 확장을 금지한다.
+
+**객체 확장 금지**란 프로퍼티 추가 금지를 의미한다.
+
+즉, 확장이 금지된 객체는 프로퍼티 추가가 금지된다.
+
+<br>
+
+아래 두 가지 추가 방법이 모두 금지된다.
+- 프로퍼티 동적 추가
+- Object.defineProperty 메서드
+
+<br>
+
+```js
+const person = { name: 'Lee' };
+
+// person 객체는 확장이 금지된 객체가 아니다.
+console.log(Object.isExtensible(person));   // true
+
+// person 객체의 확장을 금지하여 프로퍼티 추가를 금지한다.
+Object.preventExtensions(person);
+
+// person 객체는 확장이 금지된 객체다.
+console.log(Object.isExtensible(person));   // false
+
+// 프로퍼티 추가가 금지된다.
+person.age = 20;        // 무시. strict mode에서는 에러
+console.log(person);    // { name: "Lee" }
+
+// 프로퍼티 삭제는 가능하다.
+delete person.name;
+console.log(person);    // {}
+
+// 프로퍼티 정의에 의한 프로퍼티 추가도 금지된다.
+Object.defineProperty(person, age, { value: 20 });
+// TypeError: Cannot define property age, object is not extensible
+```
+
+> ✨ Object.isExtensible 메서드는 확장이 가능한 객체인지 여부를 확인한다.
+
+### 객체 밀봉
+`Object.seal` 메서드는 객체를 밀봉한다.
+
+**객체 밀봉**이란 프로퍼티 추가 및 삭제와 프로퍼티 어트리뷰트 재정의 금지를 의미한다.
+
+즉, 밀봉된 객체는 읽기와 쓰기만 가능하다.
+
+<br>
+
+```js
+const person = { name: 'Lee' };
+
+// person 객체는 밀봉(seal)된 객체가 아니다.
+console.log(Object.isSealed(person));   // false
+
+// person 객체를 밀봉(seal)하여 프로퍼티 추가, 삭제, 재정의를 금지한다.
+Object.seal(person);
+
+// person 객체는 밀봉된 객체다.
+console.log(Object.isSealed(person));   // true
+
+// 밀봉된 객체는 configurable이 false다.
+console.log(Object.getOwnPropertyDescriptors(person));
+/*
+{
+    name: {value: "Lee", writable: true, enumerable: true, configurable: false},
+}
+*/
+
+// 프로퍼티 추가가 금지된다.
+person.age = 20;    // 무시. strict mode에서는 에러
+console.log(person);    // {name: "Lee"}
+
+// 프로퍼티 삭제가 금지된다.
+delete person.name; // 무시. strict mode에서는 에러
+console.log(person);    // {name: "Lee"}
+
+// 프로퍼티 값 갱신은 가능하다.
+person.name = 'Kim';
+console.log(person);    // {name: "Kim"}
+
+// 프로퍼티 어트리뷰트 재정의가 금지된다.
+Object.defineProperty(person, 'name', { configurable: true});
+// TypeError: Cannot redefine property: name
+```
+
+> ✨ `Object.isSealed` 메서드는 밀봉된 객체인지 여부를 확인할 수 있다.
+
+### 객체 동결
+`Object.freeze` 메서드는 객체를 동결한다.
+
+**객체 동결**이란 프로퍼티 추가 및 삭제와 프로퍼티 어트리뷰트 재정의 금지, 프로퍼티 값 갱신 금지를 의미한다.
+
+즉, 동결된 객체는 읽기만 가능하다.
+
+<br>
+
+```js
+const person = { name: 'Lee' };
+
+// person 객체는 동결된 객체가 아니다.
+console.log(Object.isFrozen(person));   // false
+
+// person 객체를 동결하여 프로퍼티 추가, 식제, 재정의, 쓰기를 금지한다.
+Object.freeze(person);
+
+// person 객체는 동결된 객체다.
+console.log(Object.isFrozen(person));   // true
+
+// 동결된 객체는 writable과 configurable이 false다.
+console.log(Object.getOwnPropertyDescriptors(person));
+/*
+{
+    name: {value: "Lee", writable: false, enumerable: true, configurable: false}
+}
+*/
+
+// 프로퍼티 추가가 금지된다.
+person.age = 20;    // 무시. strict mode에서는 에러
+console.log(person);    // {name: "Lee"}
+
+// 프로퍼티 삭제가 금지된다.
+delete person.name; // 무시. strict mode에서는 에러
+console.log(person);    // {name: "Lee"}
+
+// 프로퍼티 값 갱신이 금지된다.
+person.name = "Kim";
+console.log(person);    // {name: "Lee"}
+
+// 프로퍼티 어트리뷰트 재정의가 금지된다.
+Object.defineProperty(person, 'name', { configurable: true});
+// TypeError: Cannot redefine property: name
+```
+
+> ✨ `Object.isFrozen` 메서드는 동결된 객체인지 확인할 수 있다.
+
+### 불변 객체
+위 세 변경 방지 메서드들은 얕은 변경 방지로 직속 프로퍼티만 변경이 방지되고 중첩 객체까지는 영향을 주지 못한다.
+
+따라서 `Object.freeze` 메서드로 객체를 동결하여도 중첩 객체까지 동결할 수 없다.
+
+만약 중첩 객체까지 동결하여 변경이 불가능한 읽기 전용의 불변 객체를 구현하려면 객체를 값으로 갖는 모든 프로퍼티에 대해 재귀적으로 `Object.freeze` 메서드를 호출해야 한다.
+
+<br>
+
+```js
+function deepFreeze(target) {
+    // 객체가 아니거나 동결된 객체는 무시하고 객체이고 동결되지 않은 객체만 동결한다.
+    if (target && typeof target === 'object' && !Object.isFrozen(target)) {
+        Object.freeze(target);
+        Obejct.keys(target).forEach(key => deepFreeze(target[key]));
+    }
+    return target;
+}
 ```
