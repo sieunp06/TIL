@@ -131,6 +131,7 @@
   - [12장 함수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch12-function.md)
   - [15장 let, const 키워드와 블록 레벨 스코프](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch15-let-const-var.md)
   - [16장 프로퍼티 어트리뷰트](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch16-property-attribute.md)
+  - [17장 생성자 함수에 의한 객체 생성](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch17-create-object-by-constructor.md)
 
 #### **📌 Package Manager**
 - **🐛 Trouble Shooting**
