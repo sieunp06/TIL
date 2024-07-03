@@ -136,6 +136,7 @@
   - [20장 strict mode](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch20-strict-mode.md)
   - [21장 빌트인 객체](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch21-built-in-object.md)
   - [22장 this](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch22-this.md)
+  - [25장 클래스](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch25-class.md)
   - [30장 Date](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch30-Date.md)
 
 #### **📌 Package Manager**
