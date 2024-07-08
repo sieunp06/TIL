@@ -188,6 +188,7 @@
 
 ### 🌿Spring
 #### **📌 Spring**
+- [application.yml 작성법 총정리](https://github.com/sieunp06/TIL/blob/main/Spring/How-to-Write-Applcation-yml.md)
 - [ResponseEntity 사용법](https://github.com/sieunp06/TIL/blob/main/Spring/ResponseEntity.md)
 - [@Controller와 @RestController의 차이](https://github.com/sieunp06/TIL/blob/main/Spring/%40Controller-and-%40RestController.md)
 
