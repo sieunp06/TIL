@@ -3,7 +3,7 @@
 
 ## Emotion과 Styled-component의 차이점
 ### 기능
-![picture1](images/Emotion-vs-Styled-component.png)
+![picture1](./images/Emotion-vs-Styled-component.png)
 위 표를 보면 사실상 `Emotion`과 `Styled-component`가 제공하는 기능은 거의 동일하다.
 
 ### 성능
