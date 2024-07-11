@@ -20,24 +20,24 @@
 
 
 ---
-### 💾 Database
-#### **📌 Database**
+## Database
+### **📌 Database**
   - [키(key)의 개념 및 종류](https://github.com/sieunp06/TIL/blob/main/Database/Type-of-Keys.md)
   - [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
   - [데이터 무결성과 데이터 정합성](https://github.com/sieunp06/TIL/blob/main/Database/Data-Integrity-and-Data-Consistency.md)
 
 <br>
 
-### 🐋 Docker
-#### **📌 Docker**
+## Docker
+### **📌 Docker**
 - [Docker Commands](https://github.com/sieunp06/TIL/blob/main/Docker/Docker-Commands.md)
 - [Dockerfile 작성법](https://github.com/sieunp06/TIL/blob/main/Docker/What-is-Dockerfile.md)
 - [docker-compose란?](https://github.com/sieunp06/TIL/blob/main/Docker/What-is-Docker-compose.md)
 
 <br>
 
-### FastAPI
-#### **📌 FastAPI**
+## FastAPI
+### **📌 FastAPI**
 - [Pycharm Community 가상환경에서 FastAPI + Uvicorn 설치하기](https://github.com/sieunp06/TIL/blob/main/FastAPI/Install-FastAPI-on-Pycharm.md)
 
 <br>
@@ -169,15 +169,14 @@
 - [Conditional Rendering 조건부 렌더링](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Conditional-Rendering.md)
 - [Hook](https://github.com/sieunp06/TIL/blob/main/React/Basic/React-Hook.md)
 
-#### **📌 Axios**
-- [Axios 사용법](https://github.com/sieunp06/TIL/blob/main/React/Axios/How-to-use-Axios.md)
-
-#### **📌 Emotion & Styled-component**
-- [Emotion vs Styled-component](https://github.com/sieunp06/TIL/blob/main/React/Emotion-vs-Styled-component.md)
-- [Emotion 사용법](https://github.com/sieunp06/TIL/blob/main/React/Emotion%20%26%20Styled-component/How-to-use-Emotion.md)
-
-#### **📌 Jest**
-- [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
+#### **📌 Libraries**
+- **📂 Axios**
+  - [Axios 사용법](https://github.com/sieunp06/TIL/blob/main/React/Axios/How-to-use-Axios.md)
+- **📂 Emotion & Styled-component**
+  - [Emotion vs Styled-component](https://github.com/sieunp06/TIL/blob/main/React/Emotion-vs-Styled-component.md)
+  - [Emotion 사용법](https://github.com/sieunp06/TIL/blob/main/React/Emotion%20%26%20Styled-component/How-to-use-Emotion.md)
+- **📂 Jest**
+  - [Jest란?](https://github.com/sieunp06/TIL/blob/main/React/Jest/what-is-jest.md)
 
 <br>
 
@@ -186,7 +185,7 @@
 
 <br>
 
-### 🌿Spring
+### Spring
 #### **📌 Spring**
 - [application.yml 작성법 총정리](https://github.com/sieunp06/TIL/blob/main/Spring/How-to-Write-Applcation-yml.md)
 - [ResponseEntity 사용법](https://github.com/sieunp06/TIL/blob/main/Spring/ResponseEntity.md)
@@ -196,11 +195,13 @@
 - **🐛 Trouble Shooting**
   - [Spring JPA “mappedBy reference an unknown target entity property” 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/mappedBy-reference-an-unknown-target-entity-property.md)
   - ["not-null property references a null or transient value" 해결](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Trouble%20Shooting/not-null-property-references-a-null-or-transient-value.md)
-- [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
-- [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
-- [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
-- [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
-- [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
+- **📖 Book**
+  - **✨ 자바 ORM 표준 JPA 프로그래밍**
+    - [JPA란?](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/What-is-Spring-JPA.md)
+    - [영속성 관리](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Persistence-management.md)
+    - [Entity 매핑 어노테이션](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Entity-Mapping-Annotations.md)
+    - [연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Association-Mapping.md)
+    - [다양한 연관관계 매핑](https://github.com/sieunp06/TIL/blob/main/Spring/Spring%20JPA/Various-Association-Mapping.md) 
 
 #### **📌 Spring Security**
 - **🐛 Trouble Shooting**
