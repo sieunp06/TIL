@@ -116,25 +116,7 @@
 - [ASCII 사용하기](https://github.com/sieunp06/TIL/blob/main/Javascript/Grammar/How-to-Use-ASCII-in-JS.md)
 
 ### **📖Book**
-- **✨ 모던 자바스크립트 Deep Dive**
-  - [02장 자바스크립트란?](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch2-What-is-Javscript.md)
-  - [04장 변수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch04-variable.md)
-  - [06장 데이터 타입](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch06-data-type.md)
-  - [07장 연산자](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch07-operator.md)
-  - [08장 제어문](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch08-control-flow-statement.md)
-  - [09장 타입 변환과 단축 평가](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch09-type-casting.md)
-  - [10장 객체 리터럴](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch10-object.md)
-  - [11장 원시 값과 객체의 비교](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch11-primitive-type-and-object-type.md)
-  - [12장 함수](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch12-function.md)
-  - [15장 let, const 키워드와 블록 레벨 스코프](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch15-let-const-var.md)
-  - [16장 프로퍼티 어트리뷰트](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch16-property-attribute.md)
-  - [17장 생성자 함수에 의한 객체 생성](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch17-create-object-by-constructor.md)
-  - [18장 함수와 일급 객체](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch18-function-and-first-class-object.md)
-  - [20장 strict mode](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch20-strict-mode.md)
-  - [21장 빌트인 객체](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch21-built-in-object.md)
-  - [22장 this](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch22-this.md)
-  - [25장 클래스](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch25-class.md)
-  - [30장 Date](https://github.com/sieunp06/TIL/blob/main/Javascript/Book/Modern%20Javascript%20Deep%20Dive/ch30-Date.md)
+- [✨ 모던 자바스크립트 Deep Dive]()
 
 ### **📌 Package Manager**
 - **🐛 Trouble Shooting**
