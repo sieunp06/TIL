@@ -25,7 +25,10 @@
 - [키(key)의 개념 및 종류](https://github.com/sieunp06/TIL/blob/main/Database/Type-of-Keys.md)
 - [식별관계 vs 비식별관계](https://github.com/sieunp06/TIL/blob/main/Database/Identification-relationship-vs-Deidentification-relationship.md)
 - [데이터 무결성과 데이터 정합성](https://github.com/sieunp06/TIL/blob/main/Database/Data-Integrity-and-Data-Consistency.md)
+
+### 📌 MySQL
 - [MySQL 사용법](https://github.com/sieunp06/TIL/blob/main/Database/How-to-use-MySQL.md)
+- [MySQL 집계함수](https://github.com/sieunp06/TIL/blob/main/Database/MySQL/Aggregate-function.md)
 
 <br>
 
