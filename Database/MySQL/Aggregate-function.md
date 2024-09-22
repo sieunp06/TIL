@@ -7,6 +7,9 @@
   - [Null을 무시할 때](#null을-무시할-때)
   - [Null을 0으로 할 때](#null을-0으로-할-때)
 - [MIN과 MAX](#min과-max)
+- [ROUND와 TRUNCATE](#round와-truncate)
+  - [ROUND](#round)
+  - [TRUNCATE](#truncate)
 - [References](#references)
 
 
@@ -58,6 +61,26 @@ SELECT SUM(컬럼명)/COUNT(*) FROM sample;
 ```SQL
 SELECT MIN('컬럼명') FROM sample;
 SELECT MAX('컬럼명') FROM sample;
+```
+
+## ROUND와 TRUNCATE
+`ROUND`는 반올림할 때 사용하며, `TRUNCATE`는 소수점을 버릴 때 사용한다.
+
+### ROUND
+```SQL
+SELECT ROUND(숫자,반올림할 자릿수 - 1) FROM DUAL
+```
+
+<br>
+
+EX) 소수점 첫 번째 자리에서 반올림할 때 
+```SQL
+SELECT ROUND(컬럼명, 0) FROM sample;
+```
+
+### TRUNCATE
+```SQL
+SELECT TRUNCATE(숫자,버릴 자릿수) FROM DUAL
 ```
 
 ---
